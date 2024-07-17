@@ -42,4 +42,12 @@
     color: #666;
     font-size: 14px;
   }
-  
+  .jSummary{
+    color: yellowgreen;
+  }
+  b{
+    color: yellowgreen;
+  }
+  .name{
+    color: palevioletred;
+  }
