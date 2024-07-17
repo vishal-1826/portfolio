@@ -1,0 +1,43 @@
+/* portfolio.component.css */
+
+.portfolio {
+    width: 1299px;
+    height: fit-content;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /* background-color: steelblue;  */
+  }
+  
+  .profile-img img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .profile-info {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .profile-info h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .profile-info p {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  
+  .footer {
+    margin-top: 20px;
+    text-align: center;
+    color: #666;
+    font-size: 14px;
+  }
+  
