@@ -1,6 +1,7 @@
 /* portfolio.component.css */
 
 .portfolio {
+    background-image: url('../assets/img/bg-black.jpg');
     width: 1299px;
     height: fit-content;
     margin: 0 auto;
@@ -21,6 +22,7 @@
   
   .profile-info {
     text-align: center;
+    color: white;
     margin-top: 20px;
   }
   

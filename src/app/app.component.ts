@@ -1,10 +1,12 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
+import { NotificationComponent } from './notification/notification.component';
+
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet],
+  imports: [RouterOutlet, NotificationComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css',
 })
@@ -17,7 +19,7 @@ export class AppComponent {
   linkedinLink: string =
     'https://www.linkedin.com/in/vishal-kumar-verma-246289198/';
   fbLink: string = 'https://www.facebook.com/yourprofile/';
-  angularVersion: string = 'X.X.X'; // Replace with your Angular version
+  angularVersion: string = '17.3.0'; // Replace with your Angular version
 
   constructor() {}
 }

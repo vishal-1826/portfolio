@@ -8,39 +8,37 @@
     <h2>{{ myName }}</h2>
     <p>
       <b> Job Profile Summary: Angular Developer</b>
-
       Experienced Angular Developer proficient in building scalable web applications and dynamic user interfaces. With a
       solid foundation in JavaScript and deep understanding of Azure fundamentals, adept at leveraging these
       technologies to deliver robust solutions. Excels in collaborating with cross-functional teams to analyze
       requirements, design architecture, and implement features that enhance user experience and drive business growth.
       Passionate about continuous learning and staying updated with emerging trends in web development. <br>
+<b style="align-items: start;">Key Skills: </b> <br>
 
-      <b>Key Skills: </b>
-
-      <b>Angular Framework:</b> Expertise in developing SPA (Single Page Applications) using Angular, with proficiency
+      <b>Angular Framework:</b> <span>Expertise in developing SPA (Single Page Applications) using Angular, with proficiency
       in Angular 2+ versions.
       JavaScript: Strong command over JavaScript fundamentals, including ES6+ features, and ability to implement complex
-      logic and manipulate the DOM efficiently. <br>
-      <b> Azure Fundamentals: </b> Familiarity with Azure services such as Azure App Service, Azure Functions, Azure SQL
-      Database, and Azure Storage, enabling seamless integration and deployment of applications. <br>
-      <b> Web Development:</b> Skilled in HTML5, CSS3, and responsive design principles to create engaging and
-      accessible user interfaces. <br>
-      <b>Version Control:</b> Proficient in Git for version control, ensuring collaborative and efficient code
-      management within development teams. <br>
-      <b>Problem Solving:</b> Proven ability to troubleshoot issues, refactor code for improved efficiency, and
-      implement best practices to optimize application performance. <br>
+      logic and manipulate the DOM efficiently.</span> <br>
+      <b> Azure Fundamentals: </b> <span>Familiarity with Azure services such as Azure App Service, Azure Functions, Azure SQL
+      Database, and Azure Storage, enabling seamless integration and deployment of applications.</span><br>
+      <b> Web Development:</b> <span> Skilled in HTML5, CSS3, and responsive design principles to create engaging and
+      accessible user interfaces. </span> <br>
+      <b>Version Control:</b> <span> Proficient in Git for version control, ensuring collaborative and efficient code
+      management within development teams.</span> <br>
+      <b>Problem Solving:</b> <span>Proven ability to troubleshoot issues, refactor code for improved efficiency, and
+      implement best practices to optimize application performance.</span> <br>
       <b>Professional Experience:</b>
-
-
       Angular Development: Developed and maintained Angular applications, implementing reusable components, services,
       and modules to ensure scalability and maintainability.
     </p>
     <p>Email: <a href="mailto:{{ email }}">{{ email }}</a></p>
     <p>Phone: {{ phoneNumber }}</p>
     <p>LinkedIn: <a href="{{ linkedinLink }}" target="_blank">{{ linkedinLink }}</a></p>
-    <p>Facebook: <a href="{{ fbLink }}" target="_blank">{{ fbLink }}</a></p>
+    <!-- <p>Facebook: <a href="{{ fbLink }}" target="_blank">{{ fbLink }}</a></p> -->
   </div>
   <div class="footer">
     <p>Portfolio created using Angular {{ angularVersion }}</p>
   </div>
 </div>
+
+<app-notification message="Welcome to our app!"></app-notification>
